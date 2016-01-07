@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/gradients"
+	android:gravity="center|left"
+	android:orientation="vertical" >
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/settings_description"
+		android:textSize="24.5sp"
+		tools:context=".Settings" />
+
+	<Button
+		android:id="@+id/erase_button"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:gravity="left|center_vertical|center_horizontal"
+		android:text="@string/clear_data" />
+
+	<Button
+		android:id="@+id/exit_button"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:gravity="left|center_vertical|center_horizontal"
+		android:text="@string/close_label" />
+
+</LinearLayout>

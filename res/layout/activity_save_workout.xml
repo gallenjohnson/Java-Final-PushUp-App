@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:padding="10dip" >
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/WouldYou_label" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/save_exit_label" />
+
+	<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:padding="10dip"
+		android:stretchColumns="*" >
+
+		<TableRow>
+
+			<Button
+				android:id="@+id/save_button"
+				android:layout_width="5dp"
+				android:layout_height="wrap_content"
+				android:text="@string/save_label" />
+
+			<Button
+				android:id="@+id/exit_button"
+				android:layout_width="5dp"
+				android:layout_height="wrap_content"
+				android:text="@string/exit_label" />
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>
